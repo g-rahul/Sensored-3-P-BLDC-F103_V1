@@ -6,4 +6,4 @@ This Firmware was developed by
 * https://github.com/g-rahul
 * Devloped in Stm32 Cubemx & keil uVision 5
 
-The authore is not responsible for any unwanted outcomes that might occur during deployment and testing of this firmware.
+The author is not responsible for any unwanted outcomes that might occur during deployment and testing of this firmware.
