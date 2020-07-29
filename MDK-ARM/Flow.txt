@@ -1,0 +1,18 @@
+-cycle by cycle enabled on 10/1/19 via A4
+{
+ interrupt trigger works fine,prority in order 0-7 H-L (0 set for trigger rest 1 works)
+ }
+-RPM PSC settings
+{
+PSC set to 1999 for 1hz ramp
+}
+-the interrupt of cycle 10/2/2019
+{
+-200 us pulse being measured via timer @ 50hz E
+-limited power/torque
+
+}
+-Segregation after BKP_4
+{
+
+}

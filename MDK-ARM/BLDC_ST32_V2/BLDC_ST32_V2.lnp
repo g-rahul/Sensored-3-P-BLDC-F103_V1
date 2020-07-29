@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"bldc_st32_v2\startup_stm32f103xb.o"
+"bldc_st32_v2\main.o"
+"bldc_st32_v2\stm32f1xx_it.o"
+"bldc_st32_v2\stm32f1xx_hal_msp.o"
+"bldc_st32_v2\stm32f1xx_hal_gpio_ex.o"
+"bldc_st32_v2\stm32f1xx_hal_adc.o"
+"bldc_st32_v2\stm32f1xx_hal_adc_ex.o"
+"bldc_st32_v2\stm32f1xx_hal_tim.o"
+"bldc_st32_v2\stm32f1xx_hal_tim_ex.o"
+"bldc_st32_v2\stm32f1xx_hal.o"
+"bldc_st32_v2\stm32f1xx_hal_rcc.o"
+"bldc_st32_v2\stm32f1xx_hal_rcc_ex.o"
+"bldc_st32_v2\stm32f1xx_hal_gpio.o"
+"bldc_st32_v2\stm32f1xx_hal_dma.o"
+"bldc_st32_v2\stm32f1xx_hal_cortex.o"
+"bldc_st32_v2\stm32f1xx_hal_pwr.o"
+"bldc_st32_v2\stm32f1xx_hal_flash.o"
+"bldc_st32_v2\stm32f1xx_hal_flash_ex.o"
+"bldc_st32_v2\stm32f1xx_hal_exti.o"
+"bldc_st32_v2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "BLDC_ST32_V2\BLDC_ST32_V2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BLDC_ST32_V2.map" -o BLDC_ST32_V2\BLDC_ST32_V2.axf
